@@ -28,10 +28,13 @@
       class="navbar transparent navbar-inverse navbar-fixed-top p-0"
       style="font-family: 'Lato', sans-serif;"
     >
-      <nav id="navMenu"class="navbar navbar-expand-lg navbar-light navbar-inner">
+      <nav
+        id="navMenu"
+        class="navbar navbar-expand-lg navbar-light navbar-inner"
+      >
         <div class="container">
           <div class="row full-width">
-            <a class="navbar-brand white-color brand" href="#">Jordy Bastien</a>
+            <a class="navbar-brand brand brand-nav" href="#">Jordy Bastien</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -50,16 +53,40 @@
             >
               <ul class="navbar-nav mr-auto my-menu">
                 <li class="nav-item my-link">
-                  <button class="nav-link white-color my-link" onclick="goToDiv('banner')" href="#">Home</button>
+                  <button
+                    class="nav-link white-color my-link"
+                    onclick="goToDiv('banner')"
+                    href="#"
+                  >
+                    Home
+                  </button>
                 </li>
                 <li class="nav-item my-link">
-                  <button class="nav-link white-color my-link" onclick="goToDiv('about-me')" href="#">About Me</button>
+                  <button
+                    class="nav-link white-color my-link"
+                    onclick="goToDiv('about-me')"
+                    href="#"
+                  >
+                    About Me
+                  </button>
                 </li>
                 <li class="nav-item my-link">
-                  <button class="nav-link white-color my-link" onclick="goToDiv('skills')" href="#">Skills</button>
+                  <button
+                    class="nav-link white-color my-link"
+                    onclick="goToDiv('skills')"
+                    href="#"
+                  >
+                    Skills
+                  </button>
                 </li>
                 <li class="nav-item my-link">
-                  <button class="nav-link white-color my-link" onclick="goToDiv('portfolio')" href="#">Portfolio</button>
+                  <button
+                    class="nav-link white-color my-link"
+                    onclick="goToDiv('portfolio')"
+                    href="#"
+                  >
+                    Portfolio
+                  </button>
                 </li>
               </ul>
             </div>
@@ -84,21 +111,70 @@
         </div>
       </div>
     </section>
-    <section id="about-me"class="about-me py-5">
+    <section id="about-me" class="about-me py-5">
       <div class="container section-bg py-3 px-5">
-        <h3 class="section-title">About Me</h3>
+        <h3 class="section-title">ABOUT ME</h3>
         <div class="row">
-          <div class="col-md-8"></div>
+          <div class="col-md-7">
+            <h5 class="white-color mt-4">I am a full-stack web developer</h5>
+            <p class="white-color mt-4">
+              I am a Full-Stack Engineer currently working at Andela Rwanda, holding a
+              Bachelors degree in Computer and Software Engineering.
+            </p>
+            <ul class="list-inline py-5 sm-list">
+              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/twitter.png" alt="" srcset="" /></li>
+              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/linkedin.png" alt="" srcset="" /></li class="list-inline-item">
+              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/git1.png" alt="" /></li class="list-inline-item">
+              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/upwork.png" alt="" srcset="" /></li class="list-inline-item">
+            </ul>
+          </div>
           <div class="col-md-4">
             <img class="img-responsive" src="assets/me.JPG" alt="" srcset="" />
           </div>
         </div>
+        <div class="row mt-2">
+          <button class="btn btn-outline-light place-item-in-center">
+            Download CV
+          </button>
+        </div>
       </div>
     </section>
     <section id="skills" class="skills py-5">
-      <div class="container section-bg py-3 px-5">
+      <div class="container white-color section-bg py-3 px-5">
         <h3 class="section-title">My Skills</h3>
-        <div class="row"></div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="skills-box">
+              Full Stack Development deliverables
+              <br>
+              UI/UXDatabase ArchitectureWebsite OptimizationDatabase DevelopmentWeb DesignWeb ApplicationWebsite DevelopmentWebsite RedesignAPIDatabase DesigneCommerce WebsiteAPI IntegrationProject Analysis
+            </div>
+              
+          </div>
+          <div class="col-md-3">
+            <div class="skills-box">
+          Full Stack Development skills
+          <br>
+          RESTfulNode.jsReactReduxLodashGitLabFlexboxLaravelwebpackAngularAdobe PhotoshopTravis CIBootstrapCircleCIJSONGit
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="skills-box">
+            Databases
+            <br>
+            PostgreSQLMySQLMongoDBMicrosoft Access
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="skills-box">
+            Full stack development languages
+            <br>
+  
+            ECMAScriptPHPTypeScriptHTML5JavaScriptCSS3
+            </div>
+          </div>
+          <p class="white-color mt-4">
+        </p>
       </div>
     </section>
     <section id="portfolio" class="portfolio py-5">

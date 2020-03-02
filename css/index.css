@@ -12,6 +12,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.brand-nav {
+  color: #66fcf1 !important;
+}
 .brand {
   flex: 9 0 0;
 }
@@ -45,7 +48,7 @@ body {
   cursor: pointer;
 }
 .my-link:hover {
-  color: #1565c0 !important;
+  color: #66fcf1 !important;
   background: transparent;
   border: none;
 }
@@ -68,7 +71,8 @@ body {
   background-color: #262625;
 }
 .section-title {
-  color: #fff;
+  color: #66fcf1;
+  font-weight: bold;
 }
 .img-responsive {
   width: 100%;
@@ -81,6 +85,10 @@ body {
   background-color: #262625 !important;
   background-image: none !important;
 }
+.place-item-in-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 footer {
   background-color: #000;
   position: fixed;
@@ -91,6 +99,34 @@ footer {
 }
 .footer-note {
   color: #ffffff7a;
+}
+.social-media-icons {
+  width: 1.2em;
+}
+.sm-icons {
+  border: 1px dashed #fff;
+  border-radius: 50%;
+  padding: 5px 5px 10px 13px;
+  margin-bottom: 10px;
+  width: 3em;
+}
+.sm-container {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sm-list {
+  /* background: #1565c0; */
+}
+.sm-icons:hover {
+  background: #fff;
+}
+.sm-icons:hover .social-media-icons {
+  filter: invert(1);
+}
+.skills-box {
+  background: #00ffff14;
+  border-radius: 0.5em;
+  padding: 15px;
 }
 @media screen and (max-width: 600px) {
   .banner-text {
