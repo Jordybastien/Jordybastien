@@ -18,177 +18,225 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato|Old+Standard+TT|Open+Sans|Roboto|Roboto+Condensed&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
-  <body style="font-family: 'Lato', sans-serif;">
-    <div
-      class="navbar transparent navbar-inverse navbar-fixed-top p-0"
-      style="font-family: 'Lato', sans-serif;"
-    >
-      <nav
-        id="navMenu"
-        class="navbar navbar-expand-lg navbar-light navbar-inner"
-      >
+  <body>
+    <div class="wrapper">
+      <section id="banner" class="banner">
+        <div class="container h-100">
+          <div class="row justify-content-center h-100 center-items">
+            <div class="mb-3">
+              <img
+                class="img-responsive-banner"
+                src="assets/me-2.png"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="banner-text mx-auto text-center intro-text">
+              <h2 class="white-color">Hey, I'm Jordy Bastien Rugumbira.</h2>
+              <h2 class="white-color">A Software Engineer.</h2>
+              <div>
+                <ul
+                  class="list-inline py-5 sm-list d-flex justify-content-center"
+                >
+                  <li class="list-inline-item sm-icons">
+                    <div>
+                      <img
+                        class="social-media-icons"
+                        src="assets/twitter.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                  </li>
+                  <li class="list-inline-item sm-icons">
+                    <div>
+                      <img
+                        class="social-media-icons"
+                        src="assets/message.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                  </li>
+                  <li class="list-inline-item sm-icons">
+                    <div>
+                      <img
+                        class="social-media-icons"
+                        src="assets/linkedin.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                  </li>
+                  <li class="list-inline-item sm-icons">
+                    <div>
+                      <img
+                        class="social-media-icons"
+                        src="assets/git1.png"
+                        alt=""
+                      />
+                    </div>
+                  </li>
+                  <li class="list-inline-item sm-icons">
+                    <div>
+                      <img
+                        class="social-media-icons"
+                        src="assets/upwork.png"
+                        alt=""
+                        srcset=""
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                class="btn btn-outline-light get-started-button"
+                onclick="goToDiv('about-me')"
+              >
+                <span>&darr;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-me">
+        <section
+          class="about-me py-5 custom-section"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="container py-5 px-5">
+            <h3 class="section-title">ABOUT ME</h3>
+            <div class="row">
+              <div class="col-md-7">
+                <div>
+                  <p class="white-color mt-4">
+                    I am a a Full-stack engineer, with a Bachelor’s degree in
+                    Computer and Software Engineering from the University of
+                    Rwanda, a Udacity React Developer Nanodegree and hands-on
+                    experience in a wide variety of tools and languages but
+                    mainly using Javascript/Typescript(React/Angular on frontend
+                    & NodeJS(Express.js) on the backend) to create and implement
+                    software applications.
+                  </p>
+                  <p class="white-color mt-4">
+                    I enjoy being challenged and engaging with projects that
+                    require me to work outside my comfort and knowledge set, as
+                    continuing to learn new languages and development techniques
+                    are important to me.
+                  </p>
+                  <ul
+                    class="list-inline py-5 sm-list d-flex justify-content-center"
+                  >
+                    <li class="list-inline-item sm-icons">
+                      <div>
+                        <img
+                          class="social-media-icons"
+                          src="assets/twitter.png"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </li>
+                    <li class="list-inline-item sm-icons">
+                      <div>
+                        <img
+                          class="social-media-icons"
+                          src="assets/message.png"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </li>
+                    <li class="list-inline-item sm-icons">
+                      <div>
+                        <img
+                          class="social-media-icons"
+                          src="assets/linkedin.png"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </li>
+                    <li class="list-inline-item sm-icons">
+                      <div>
+                        <img
+                          class="social-media-icons"
+                          src="assets/git1.png"
+                          alt=""
+                        />
+                      </div>
+                    </li>
+                    <li class="list-inline-item sm-icons">
+                      <div>
+                        <img
+                          class="social-media-icons"
+                          src="assets/upwork.png"
+                          alt=""
+                          srcset=""
+                        />
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div>
+                  <img
+                    class="comp-vector"
+                    src="assets/comp-1.svg"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <a
+                class="btn btn-outline-light place-item-in-center"
+                target="“_blank”"
+                rel="“noopener”"
+                href="assets/rugumbira-jordy-bastien.pdf"
+              >
+                Download CV
+              </a>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="portfolio" class="portfolio py-5 custom-section">
+        <div class="container py-3 px-5">
+          <!-- <h3 class="section-title">My Recent Work</h3> -->
+          <div class="row"></div>
+        </div>
+      </section>
+      <footer>
         <div class="container">
-          <div class="row full-width">
-            <a class="navbar-brand brand brand-nav" href="#">Jordy Bastien</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div
-              class="collapse navbar-collapse mr-auto"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav mr-auto my-menu">
-                <li class="nav-item my-link">
-                  <button
-                    class="nav-link white-color my-link"
-                    onclick="goToDiv('banner')"
-                    href="#"
-                  >
-                    Home
-                  </button>
-                </li>
-                <li class="nav-item my-link">
-                  <button
-                    class="nav-link white-color my-link"
-                    onclick="goToDiv('about-me')"
-                    href="#"
-                  >
-                    About Me
-                  </button>
-                </li>
-                <li class="nav-item my-link">
-                  <button
-                    class="nav-link white-color my-link"
-                    onclick="goToDiv('skills')"
-                    href="#"
-                  >
-                    Skills
-                  </button>
-                </li>
-                <li class="nav-item my-link">
-                  <button
-                    class="nav-link white-color my-link"
-                    onclick="goToDiv('portfolio')"
-                    href="#"
-                  >
-                    Portfolio
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <section id="banner" class="banner">
-      <div class="container">
-        <div class="row">
-          <div class="banner-text mx-auto text-center">
-            <h2 class="white-color">Hello, I'm Jordy Bastien Rugumbira</h2>
-            <h2 class="white-color">I'm a full-stack web developer.</h2>
-            <button
-              type="button"
-              class="btn btn-outline-light get-started-button"
-              onclick="goToDiv('about-me')"
-            >
-              &darr;
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="about-me" class="about-me py-5">
-      <div class="container section-bg py-3 px-5">
-        <h3 class="section-title">ABOUT ME</h3>
-        <div class="row">
-          <div class="col-md-7">
-            <h5 class="white-color mt-4">I am a full-stack web developer</h5>
-            <p class="white-color mt-4">
-              I am a Full-Stack Engineer currently working at Andela Rwanda, holding a
-              Bachelors degree in Computer and Software Engineering.
+          <div class="row pt-2">
+            <p class="footer-note mx-auto">
+              Jordy Bastien Rugumbira
+              <span id="copyright"></span>
             </p>
-            <ul class="list-inline py-5 sm-list">
-              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/twitter.png" alt="" srcset="" /></li>
-              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/linkedin.png" alt="" srcset="" /></li class="list-inline-item">
-              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/git1.png" alt="" /></li class="list-inline-item">
-              <li class="list-inline-item sm-icons"><img class="social-media-icons"src="assets/upwork.png" alt="" srcset="" /></li class="list-inline-item">
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive" src="assets/me.JPG" alt="" srcset="" />
           </div>
         </div>
-        <div class="row mt-2">
-          <button class="btn btn-outline-light place-item-in-center">
-            Download CV
-          </button>
-        </div>
-      </div>
-    </section>
-    <section id="skills" class="skills py-5">
-      <div class="container white-color section-bg py-3 px-5">
-        <h3 class="section-title">My Skills</h3>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="skills-box">
-              Full Stack Development deliverables
-              <br>
-              UI/UXDatabase ArchitectureWebsite OptimizationDatabase DevelopmentWeb DesignWeb ApplicationWebsite DevelopmentWebsite RedesignAPIDatabase DesigneCommerce WebsiteAPI IntegrationProject Analysis
-            </div>
-              
-          </div>
-          <div class="col-md-3">
-            <div class="skills-box">
-          Full Stack Development skills
-          <br>
-          RESTfulNode.jsReactReduxLodashGitLabFlexboxLaravelwebpackAngularAdobe PhotoshopTravis CIBootstrapCircleCIJSONGit
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="skills-box">
-            Databases
-            <br>
-            PostgreSQLMySQLMongoDBMicrosoft Access
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="skills-box">
-            Full stack development languages
-            <br>
-  
-            ECMAScriptPHPTypeScriptHTML5JavaScriptCSS3
-            </div>
-          </div>
-          <p class="white-color mt-4">
-        </p>
-      </div>
-    </section>
-    <section id="portfolio" class="portfolio py-5">
-      <div class="container section-bg py-3 px-5">
-        <h3 class="section-title">My Portfolio</h3>
-        <div class="row"></div>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <div class="row pt-2">
-          <h6 class="footer-note mx-auto">Jordy Bastien Rugumbira 2020</h6>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
+    <div class="animation-area">
+      <ul class="box-area">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
