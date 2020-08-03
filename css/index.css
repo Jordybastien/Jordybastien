@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&display=swap');
 
 :root {
   --first-background-color: #232946;
@@ -13,6 +13,18 @@
 body {
   background-color: var(--first-background-color) !important;
   font-family: 'Montserrat', sans-serif !important;
+}
+.p-color {
+  color: var(--paragraph);
+}
+.another-btn {
+  background-color: var(--button-color) !important;
+  border: none !important;
+  color: var(--first-background-color) !important;
+  font-weight: 700 !important;
+  border-radius: 3px !important;
+  font-size: 1.1rem !important;
+  padding: 1.2rem 2rem !important;
 }
 .navbar.transparent.navbar-inverse .navbar-inner {
   /* background: rgba(0, 0, 0, 0.4);
@@ -33,6 +45,16 @@ body {
     url(../assets/main.jpg);
   background-attachment: fixed;
   background-size: cover;
+}
+.vector-bg {
+  background: url('../assets/pattern-1.png') repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  position: relative;
+  height: 100%;
 }
 .brand-nav {
   color: #66fcf1 !important;
@@ -112,7 +134,7 @@ body {
   background-color: #262625;
 }
 .section-title {
-  color: #66fcf1;
+  color: var(--button-color);
   font-weight: bold;
 }
 .img-responsive {
