@@ -186,9 +186,22 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+.rura-bg {
+  background: url(../assets/rura/bg.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .murugo-logo {
   width: 170px;
   height: 120px;
+}
+.rura-logo {
+  width: 170px;
+  height: 80px;
 }
 .gltfp-bg {
   background: url(../assets/gltfp-bg.png);
